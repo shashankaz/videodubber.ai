@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  gap: 2rem;
+  color: #eee;
+  position: sticky;
+  top: 0;
+  background-color: #17171e;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar p {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+}

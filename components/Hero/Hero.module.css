@@ -1,0 +1,35 @@
+.container {
+  height: 100vh;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.6rem;
+}
+
+.hero button {
+  padding: 0.7rem 1.5rem;
+  background: transparent;
+  color: #eee;
+  border: 2px solid #655dc3;
+  border-radius: 40px;
+  transform: translateY(1rem);
+}
+
+.hero button:hover {
+  background: #2a2847;
+  color: #eee;
+  cursor: pointer;
+}
